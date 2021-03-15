@@ -49,12 +49,9 @@ export class MemberDetailComponent implements OnInit {
         small: photo?.url,
         medium: photo?.url,
         big: photo?.url
-      })
-      return imageUrls;
+      })      
     }
-
-
-
+    return imageUrls;
   }
 
   loadMember(){
